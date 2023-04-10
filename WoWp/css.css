@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #5a0303;
+  padding: 0 15px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.menu,
+.sub-menu {
+  list-style: none;
+}
+
+.logo {
+  padding: 7px 5px 7px 5px;
+  background-image: url("Blizzard.gif");
+  background-position: center;
+  background-size: cover;
+  height: 72px;
+  width: 140px;
+}
+
+.menu {
+  background-color: rgba(60, 42, 41, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  height: 72px;
+  position: absolute;
+  right: 12px;
+  left: 12px;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item-button {
+  padding: 9 5px;
+}
+
+.item:not(.button) a:hover,
+.item a:hover::after {
+  color: rgb(52, 52, 211);
+}
+
+.icon {
+  background-image: url("world.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 46px;
+  height: 46px;
+}
+
+.item-secondary-button {
+}
+
+/* .body {
+  font-size: 16px;
+}
+
+.nav {
+  font-size: 16px;
+}
+
+.menu {
+  background-color: rgb(60, 42, 41, 0.8);
+  background;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  height: 72px;
+  position: absolute;
+  right: 12px;
+  left: 12px;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  white-space: ;
+  height: 72px;
+  width: 140px;
+  padding: 0 15px;
+}
+
+.menu li a {
+  display: block;
+  padding: 15px 5px;
+}
+
+.menu li.subitem {
+  padding: 15px;
+} */
